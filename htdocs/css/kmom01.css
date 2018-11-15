@@ -42,7 +42,6 @@ body {
 
 .inner-wrap .inner-wrap-header {
     margin: 0 auto;
-    width: 960px;
 }
 
 .row::after {
@@ -62,8 +61,7 @@ body {
     display: none;
 }
 
-.site-logo-text {
-    padding-left: 2em;
+.site-logo-text a{
     font-size: 2em;
     text-transform: uppercase;
     line-height: 1em;
@@ -114,4 +112,14 @@ ul {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     padding-inline-start: 40px;
+}
+
+.footer-column {
+    width: 33%;
+    float: left;
+    border-top: 1px solid darkgray;
+}
+
+.site-footer p {
+    text-align: center;
 }
