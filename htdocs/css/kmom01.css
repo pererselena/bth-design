@@ -219,14 +219,29 @@ p {
     padding: 0;
 }
 
-.footer-column {
-    width: 33%;
-    float: left;
+.region-footer {
     border-top: 1px solid darkgray;
 }
 
-.site-footer p {
+.footer-column-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer-column {
+    /*width: 33%;*/
+    float: left;
+}
+
+.site-footer {
     text-align: center;
+    clear: both;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
 }
 
 .inner-wrap-footer p {
