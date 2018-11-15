@@ -34,14 +34,19 @@ body {
     margin: 0 auto;
 }
 
-
-.outer-wrap .outer-wrap-header {
-    padding: 2em;
+.outer-wrap {
+    padding: 0.2em;
     width: 100%;
 }
 
-.inner-wrap .inner-wrap-header {
+.inner-wrap {
     margin: 0 auto;
+}
+
+.inner-wrap {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1100px;
 }
 
 .row::after {
@@ -126,6 +131,29 @@ h1 {
 
 p {
     font-size: 1.5em;
+}
+
+.author-byline {
+    border: 1px solid darkgray;
+    margin-bottom: 46px;
+    padding: 1em;
+    margin-top: 1em;
+    clear: both;
+}
+
+.left {
+    float: left;
+    margin: 0 8px 0 0;
+}
+
+.author-byline p {
+    font-size: 1em;
+}
+
+.author-byline::after {
+    content: "";
+    display: block;
+    clear: both;
 }
 
 .footer-column {
