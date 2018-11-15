@@ -30,6 +30,11 @@ body {
     padding: 0;
 }
 
+.has-sidebar {
+    max-width: 80%;
+}
+
+
 .wrap-all {
     margin: 0 auto;
 }
