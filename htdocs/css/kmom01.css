@@ -14,3 +14,97 @@
 .rm-navbar-max {
     display: none;
 }
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 90%;
+    overflow: scroll;
+}
+
+body {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.wrap-all {
+    margin: 0 auto;
+}
+
+
+.outer-wrap .outer-wrap-header {
+    padding: 2em;
+    width: 100%;
+}
+
+.inner-wrap .inner-wrap-header {
+    margin: 0 auto;
+    width: 960px;
+}
+
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.region-header-col-1 {
+    display: inline;
+    float: left;
+    width: 20%;
+    margin-left: 1em;
+}
+
+.site-logo {
+    display: none;
+}
+
+.site-logo-text {
+    padding-left: 2em;
+    font-size: 2em;
+    text-transform: uppercase;
+    line-height: 1em;
+}
+
+.region-header-col-2 {
+    display: inline;
+    width: 60%;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.rm-navbar {
+    position: relative;
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 0;
+}
+
+.rm-navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.rm-navbar li {
+    display: inline;
+    padding: 0 1em;
+}
+
+.my-navbar a:hover {
+    color: white;
+    background-color: rgba(170, 169, 169, 0.596);
+    border-radius: 0.5em;
+}
+
+ul {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
