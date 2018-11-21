@@ -244,14 +244,14 @@ p {
 }
 html {
   overflow-y: scroll;
-  background-color: #424242;
+  background-color: white;
 }
 body {
   display: block;
   margin: 0;
   padding: 0;
   color: #333;
-  background-color: #fff;
+  background-color: white;
 }
 /**
  * Layout style for general structure of header, navbar, main, footer
@@ -332,6 +332,9 @@ body {
 }
 .region-sidebar-right h4 {
   font-size: 1.5em;
+}
+.region-main {
+  background-color: lavender;
 }
 .inner-wrap-main .row {
   display: flex;
