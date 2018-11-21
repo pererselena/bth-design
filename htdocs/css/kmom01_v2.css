@@ -77,6 +77,14 @@ body {
     align-items: center;
     justify-content: space-between;
 }*/
+/* Hide submenu, leave this to kmom02 */
+.rm-desktop ul {
+  display: none;
+}
+/* Hide responsive/mobile menu, leave this to kmom02*/
+.rm-navbar-max {
+  display: none;
+}
 .site-logo {
   display: none;
 }
@@ -255,14 +263,17 @@ p {
 }
 html {
   overflow-y: scroll;
-  background-color: #424242;
+  background-color: white;
 }
 body {
   display: block;
   margin: 0;
   padding: 0;
   color: #333;
-  background-color: #fff;
+  background-color: white;
+}
+img {
+  max-width: 100%;
 }
 /**
  * Layout style for general structure of header, navbar, main, footer
@@ -306,14 +317,6 @@ body {
   align-items: center;
   justify-content: space-between;
 }
-/* Hide submenu, leave this to kmom02 */
-.rm-desktop ul {
-  display: none;
-}
-/* Hide responsive/mobile menu, leave this to kmom02*/
-.rm-navbar-max {
-  display: none;
-}
 .my-navbar {
   display: flex;
   padding: 0;
@@ -345,7 +348,7 @@ body {
   font-size: 1.5em;
 }
 .region-main {
-  background-color: lavender;
+  background-color: white;
 }
 .inner-wrap-main .row {
   display: flex;
