@@ -81,18 +81,6 @@
     overflow: auto;
 }
 
-.region-main {
-    background-color: @colorMain;
-    margin-left: 10%;
-    width: 70%;
-    float: left;
-    overflow: auto;
-
-    &has-sidebar {
-        margin-left: 0;
-    }
-}
-
 .inner-wrap-main .row {
     display: flex;
     flex-direction: row;
@@ -106,8 +94,8 @@
 
 .region-main {
     background-color: @colorMain;
-    width: 70%;
-    float: left;
+    //width: 70%;
+    //float: left;
 }
 
 /**
@@ -125,14 +113,11 @@
     width: 30%;
     margin-left: 1em;
     margin-right: 0.5em;
-}
-
-.region-sidebar-right {
     font-size: 0.7em;
-}
 
-.region-sidebar-right h4 {
-    font-size: 1.5em;
+    & h4 {
+        font-size: 1.5em;
+    }
 }
 
 .toc {
