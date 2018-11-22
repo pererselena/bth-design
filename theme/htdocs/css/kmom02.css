@@ -737,12 +737,14 @@ img {
 }
 .region-main {
   background-color: lavender;
+  padding: 2%;
+  overflow: auto;
+  float: left;
+}
+.region-main.has-sidebar-left.has-sidebar-right {
   width: 70%;
 }
-.region-main .has-sidebar-left .has-sidebar-right {
-  width: 60%;
-}
-.region-main .has-sidebar-left .has-sidebar-right .has-sidebar {
+.region-main.has-sidebar-left.has-sidebar-right .has-sidebar {
   margin-left: 0;
 }
 /**
