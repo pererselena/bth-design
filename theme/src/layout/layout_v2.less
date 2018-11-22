@@ -104,9 +104,6 @@
 /**
   * Sidebar layout
   */
-.has-sidebar {
-    //max-width: 80%;
-}
 
 .region-sidebar-left,
 .region-sidebar-right {
@@ -127,6 +124,35 @@
     margin: 0;
     padding: 0;
 }
+
+/**
+  * Byline layout
+  */
+
+  .author-byline {
+      border: 1px solid darkgray;
+      margin-bottom: 46px;
+      padding: 1em;
+      margin-top: 1em;
+      clear: both;
+
+      & p {
+        font-size: 1em;
+      }
+  }
+
+  .left {
+      float: left;
+      margin: 0 8px 0 0;
+  }
+
+
+  .author-byline::after {
+      content: "";
+      display: block;
+      clear: both;
+  }
+
 /**
   * Footer layout
   */
