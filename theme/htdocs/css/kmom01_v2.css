@@ -396,6 +396,40 @@ img {
   }
 }
 /**
+ * Navbar
+ */
+@media screen and (max-width: 700px) {
+  .rm-desktop {
+    display: none;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .rm-desktop a {
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+  }
+  .my-navbar {
+    font-size: 1.2em;
+  }
+  .site-logo-text a {
+    font-size: 1.7em;
+  }
+}
+/*@media screen and (max-width: 800px) {
+    .region-header-col-1,
+    .region-header-col-3 {
+        width: 15%;
+    }
+    .region-header-col-2 {
+        width: 70%;
+    }
+}*/
+/*@media screen and (max-width: 1048px) {
+    .rm-navbar li {
+        padding: 0;
+    }
+}*/
+/**
  * Show off the regions used in the website, to ease styling.
  */
 .regions .outer-wrap {
