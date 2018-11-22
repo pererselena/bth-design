@@ -314,6 +314,49 @@ template {
 /**
  * Internal self contained modules, save in directory module/.
  */
+/*!
+ * Stylesheet for design kmom01.
+ *
+ * This stylesheet is for the design course and kmom01. Fill it with style
+ * to style up the website so it is useable.
+ */
+.outer-wrap-header {
+  background-color: rgba(106, 99, 113, 0.83);
+}
+.region-main {
+  background-color: lavender;
+}
+.my-navbar a {
+  text-decoration: none;
+  color: black;
+  padding: 0.2em;
+}
+.my-navbar a:hover {
+  color: black;
+  border-radius: 0.5em;
+}
+.outer-wrap-footer {
+  background-color: rgba(106, 99, 113, 0.83);
+}
+h1 {
+  font-size: 2.5em;
+  text-align: center;
+  border-bottom: 1px solid darkgray;
+}
+.right {
+  float: right;
+}
+p {
+  font-size: 1.5em;
+}
+.breadcrumb-list a:hover,
+.region-sidebar-left a:hover,
+.next-previous a:hover {
+  color: black;
+  background-color: rgba(170, 169, 169, 0.596);
+  border-radius: 0.5em;
+  padding: 0.2em;
+}
 /**
  * A responsive menu.
  */
@@ -593,20 +636,6 @@ img {
 /**
   * Header layout
   */
-.outer-wrap-header {
-  background-color: gray;
-}
-/*.region-header-col-1,
-.region-header-col-3 {
-    width: 20%;
-    float: left;
-}
-
-.region-header-col-2 {
-    width: 60%;
-    float: left;
-}
-*/
 .region-header {
   display: flex;
   flex-direction: row;
@@ -662,7 +691,6 @@ img {
   clear: both;
 }
 .region-main {
-  background-color: lavender;
   padding: 2%;
   width: 100%;
   overflow: auto;
