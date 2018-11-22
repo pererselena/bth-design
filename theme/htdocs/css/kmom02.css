@@ -613,6 +613,18 @@ img {
   align-items: center;
   justify-content: space-between;
 }
+.site-logo {
+  display: none;
+}
+.site-logo-text a {
+  display: flex;
+  align-items: center;
+  font-size: 2em;
+  text-transform: uppercase;
+  line-height: 1em;
+  color: black;
+  text-decoration: none;
+}
 /**
   * Navbar layout
   */
@@ -652,6 +664,7 @@ img {
 .region-main {
   background-color: lavender;
   padding: 2%;
+  width: 100%;
   overflow: auto;
   float: left;
 }
@@ -660,6 +673,25 @@ img {
 }
 .region-main.has-sidebar-left.has-sidebar-right .has-sidebar {
   margin-left: 0;
+}
+.next-previous {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.previous {
+  margin-right: 1em;
+}
+.breadcrumb-list ul li {
+  display: inline-block;
+  text-align: center;
+  list-style: none;
+}
+.breadcrumb-list a,
+.region-sidebar-left a,
+.next-previous a {
+  color: black;
+  text-decoration: none;
+  padding: 0.3em;
 }
 /**
   * Sidebar layout

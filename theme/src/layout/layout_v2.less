@@ -46,6 +46,21 @@
     justify-content: space-between;
     //max-width: 100%;
 }
+
+.site-logo {
+    display: none;
+}
+
+.site-logo-text a {
+    display: flex;
+    align-items: center;
+    font-size: 2em;
+    text-transform: uppercase;
+    line-height: 1em;
+    color: black;
+    text-decoration: none;
+}
+
 /**
   * Navbar layout
   */
@@ -90,6 +105,7 @@
 .region-main {
     background-color: @colorMain;
     padding: 2%;
+    width: 100%;
     overflow: auto;
     float: left;
 
@@ -101,6 +117,30 @@
     }
     }
 }
+
+.next-previous {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.previous {
+    margin-right: 1em;
+}
+
+.breadcrumb-list ul li {
+    display: inline-block;
+    text-align: center;
+    list-style: none;
+}
+
+.breadcrumb-list a,
+.region-sidebar-left a,
+.next-previous a {
+    color: black;
+    text-decoration: none;
+    padding: 0.3em;
+}
+
 /**
   * Sidebar layout
   */
@@ -146,12 +186,13 @@
       margin: 0 8px 0 0;
   }
 
-
   .author-byline::after {
       content: "";
       display: block;
       clear: both;
   }
+
+
 
 /**
   * Footer layout
