@@ -737,13 +737,17 @@ img {
 }
 .region-main {
   background-color: lavender;
+  width: 70%;
+}
+.region-main .has-sidebar-left .has-sidebar-right {
+  width: 60%;
+}
+.region-main .has-sidebar-left .has-sidebar-right .has-sidebar {
+  margin-left: 0;
 }
 /**
   * Sidebar layout
   */
-.has-sidebar {
-  max-width: 80%;
-}
 .region-sidebar-left,
 .region-sidebar-right {
   display: inline;
@@ -751,13 +755,10 @@ img {
   width: 30%;
   margin-left: 1em;
   margin-right: 0.5em;
-}
-.region-sidebar-right,
-.region-sidebar-left {
   font-size: 0.7em;
 }
-.region-sidebar-right h4,
-.region-sidebar-left h4 {
+.region-sidebar-left h4,
+.region-sidebar-right h4 {
   font-size: 1.5em;
 }
 .toc {
