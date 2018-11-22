@@ -264,6 +264,7 @@ p {
 html {
   overflow-y: scroll;
   background-color: white;
+  height: 100%;
 }
 body {
   display: block;
@@ -271,6 +272,7 @@ body {
   padding: 0;
   color: #333;
   background-color: white;
+  height: 100%;
 }
 img {
   max-width: 100%;
