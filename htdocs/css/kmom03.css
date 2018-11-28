@@ -664,9 +664,25 @@ img {
   display: block;
   clear: both;
 }
+.inner-wrap-header,
+.inner-wrap-footer {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 100%;
+}
+.inner-wrap {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1100px;
+}
 /**
     * Header layout
     */
+.outer-wrap-header {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 100%;
+}
 .region-header-col-1,
 .region-header-col-3 {
   display: inline;
