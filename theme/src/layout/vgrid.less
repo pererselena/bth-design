@@ -10,9 +10,10 @@
 
 .row {
     #desinax-vgrid.row();
-    background-color: #0f0;
+    //background-color: #0f0;
     margin-bottom: 12px;
    }
+
 
 
 .wrap-all {
@@ -37,6 +38,17 @@
 .inner-wrap-header,
 .inner-wrap-footer {
     #desinax-vgrid.grid(100%);
+}
+
+.vgrid .inner-wrap {
+    @gridImage: "../img/grid_24x30x10-nomargin.png";
+   //@gridImage: "../../img/grid_12x60x20-nomargin.png";
+   #desinax-vgrid.showGrid(@gridImage, 1100px);
+
+    &.inner-wrap-header,
+    &.inner-wrap-footer {
+   #desinax-vgrid.showGrid(@gridImage);
+    }
 }
 
 /**
