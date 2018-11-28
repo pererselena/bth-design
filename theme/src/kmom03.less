@@ -29,6 +29,12 @@ body {
 // Activate grid and affect all typographic elements
 #desinax-hgrid.activateDefaultTypography();
 
+// Show the grid
+.hgrid .inner-wrap {
+    @gridImage: "../img/magic-number-@{magicNumber}.png";
+    #desinax-hgrid.showGrid(@gridImage);
+}
+
 /**
  * Base style to affect HTML elements on a general scale.
  */
@@ -63,4 +69,4 @@ body {
   */
 @bgColorHtml: white;
 @bgColorBody: white;
-@colorMain: lavender;
+//@colorMain: lavender;
