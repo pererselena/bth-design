@@ -677,14 +677,16 @@ img {
 .region-header-col-3 {
   display: inline;
   float: left;
-  width: 32.29166667%;
+  width: 19.79166667%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
 }
-.region-header {
-  align-items: center;
-  justify-content: space-between;
-  flex-shrink: 0;
+.region-header-col-2 {
+  display: inline;
+  float: left;
+  width: 57.29166667%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
 }
 .site-logo {
   display: none;
