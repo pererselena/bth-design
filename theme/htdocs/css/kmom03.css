@@ -611,19 +611,46 @@ img {
   max-width: 100%;
 }
 /**
- * Layout style for general structure of header, navbar, main, footer
- * and other regions of the page including route specific styles.
+ * Import the vertical grid.
  */
 /**
- * Layout style for general structure of header, navbar, main, footer
- * and other regions of the page including route specific styles.
+ * Fluid and Responsive Vertical Grid
+ */
+/**
+ * Namespace what could be namespaced
+ */
+#desinax-vgrid {
+  /**
+     * Wrap grid in a container.
+     */
+  /**
+     * Show grid.
+     */
+  /**
+     * All columns must be wrapped in a row.
+     */
+  /**
+     * Create a column spanning @col columns.
+     */
+  /**
+     * Push a column @offset columns.
+     */
+  /**
+     * Pull a column left @offset columns.
+     */
+  /**
+     * Pull a column right @offset columns.
+     */
+}
+/**
+ * Layout using vgrid.
  */
 /**
  * Variables
  */
 /**
- * General layout
- */
+   * General layout
+   */
 .wrap-all {
   margin: 0 auto;
   min-height: 100%;
@@ -640,8 +667,8 @@ img {
   max-width: 1100px;
 }
 /**
-  * Header layout
-  */
+    * Header layout
+    */
 .outer-wrap-header {
   flex-shrink: 0;
 }
@@ -665,8 +692,8 @@ img {
   text-decoration: none;
 }
 /**
-  * Navbar layout
-  */
+    * Navbar layout
+    */
 .my-navbar {
   display: flex;
   flex-wrap: wrap;
@@ -684,8 +711,8 @@ img {
   padding: 0 0.5em;
 }
 /**
-  * Main layout
-  */
+    * Main layout
+    */
 .outer-wrap-main {
   flex-grow: 1;
   flex-shrink: 0;
@@ -734,8 +761,8 @@ img {
   padding: 0.3em;
 }
 /**
-  * Sidebar layout
-  */
+    * Sidebar layout
+    */
 .region-sidebar-left,
 .region-sidebar-right {
   display: inline;
@@ -756,8 +783,8 @@ img {
   font-size: 1.2em;
 }
 /**
-  * Byline layout
-  */
+    * Byline layout
+    */
 .author-byline {
   border: 1px solid darkgray;
   margin-bottom: 46px;
@@ -778,8 +805,8 @@ img {
   clear: both;
 }
 /**
-  * Footer layout
-  */
+    * Footer layout
+    */
 .outer-wrap-footer {
   flex-shrink: 0;
 }
@@ -806,6 +833,26 @@ img {
 .inner-wrap-footer p {
   font-size: 1em;
 }
+/*@columnWidth:   30;
+@gutterWidth:   10;
+@columns:       24;
+@gridType:      "float"; // "flex"*/
+.row {
+  display: block;
+  width: 101.04166667%;
+  margin-left: -0.52083333%;
+  margin-right: -0.52083333%;
+  margin-bottom: 12px;
+}
+.row::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
 /**
  * Layout for responsive style through media queries.
  */
