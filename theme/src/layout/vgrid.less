@@ -12,6 +12,7 @@
     #desinax-vgrid.row();
     //background-color: #0f0;
     margin-bottom: 12px;
+
    }
 
 
@@ -134,13 +135,34 @@
 }
 
 .region-main {
-    #desinax-vgrid.column(18);
+    #desinax-vgrid.column(@columns);
     //padding: 2%;
     //width: 100%;
     //overflow: auto;
     //float: left;
 
     &.has-sidebar-left.has-sidebar-right {
+        // 12 is two sidebar width make variable...
+        #desinax-vgrid.column(@columns  - 12);
+        //width: 70%;
+
+        .has-sidebar {
+            //margin-left: 0;
+        }
+    }
+
+    &.has-sidebar-right {
+        // 6 is sidebar width make variable
+        #desinax-vgrid.column(@columns  - 6);
+        //width: 70%;
+
+        .has-sidebar {
+            //margin-left: 0;
+        }
+    }
+
+    &.has-sidebar-left {
+        #desinax-vgrid.column(@columns  - 6);
         //width: 70%;
 
         .has-sidebar {
