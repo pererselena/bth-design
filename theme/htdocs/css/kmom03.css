@@ -747,6 +747,20 @@ img {
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
 }
+.region-flash {
+  display: inline;
+  float: left;
+  width: 98.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+}
+.region-breadcrumb {
+  display: inline;
+  float: left;
+  width: 98.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+}
 .breadcrumb-list ul li {
   display: inline-block;
   text-align: center;
