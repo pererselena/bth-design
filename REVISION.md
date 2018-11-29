@@ -1,6 +1,12 @@
 Revision history
 ============================
 
+
+
+v3.0.1 (2018-11-29)
+------------------------
+* Lagt till redovisningstext till kmom03
+
 v3.0.0 (2018-11-29)
 ------------------------
 * Lagt till allt för kmom03
