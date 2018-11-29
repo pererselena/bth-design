@@ -1035,6 +1035,9 @@ hr::after {
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
 }
+.region-header {
+  margin-bottom: 48px;
+}
 .site-logo {
   display: none;
 }
@@ -1069,6 +1072,7 @@ hr::after {
   width: 98.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
+  margin-bottom: 48px;
 }
 .region-main.has-sidebar-left.has-sidebar-right {
   display: inline;
@@ -1098,6 +1102,7 @@ hr::after {
   width: 23.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
+  margin-bottom: 48px;
   font-size: 0.7em;
 }
 .region-sidebar-left h4,
@@ -1110,6 +1115,7 @@ hr::after {
   width: 98.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
+  margin-bottom: 48px;
 }
 .region-breadcrumb {
   display: inline;
@@ -1117,6 +1123,7 @@ hr::after {
   width: 98.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
+  margin-bottom: 36px;
 }
 .breadcrumb-list ul li {
   display: inline-block;
