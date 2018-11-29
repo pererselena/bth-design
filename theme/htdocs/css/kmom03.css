@@ -1065,7 +1065,7 @@ hr::after {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
-  font-size: 1.45em;
+  font-size: 1.4em;
 }
 .rm-navbar ul {
   list-style: none;
@@ -1294,8 +1294,7 @@ hr::after {
 }
 @media screen and (max-width: 1000px) {
   .rm-desktop a {
-    padding-left: 0.2em;
-    padding-right: 0.2em;
+    padding-right: 0.13em;
   }
   .my-navbar {
     font-size: 1.2em;
