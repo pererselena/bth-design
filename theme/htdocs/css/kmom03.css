@@ -621,8 +621,34 @@ a.rm-button.rm-clicked .rm-button-face-2 {
      * Enable all default typographic elements.
      */
 }
+.hgrid .inner-wrap {
+  background-image: url("../img/magic-number-24px.png");
+}
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+* {
+  box-sizing: border-box;
+}
+html {
+  overflow-y: scroll;
+  background-color: white;
+  height: 100%;
+}
 body {
+  display: block;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: white;
+  height: 100%;
   font: 18px/1.33333333 Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", Georgia, "Times New Roman", Times, serif;
+}
+img {
+  max-width: 100%;
 }
 h1,
 h2,
@@ -907,34 +933,6 @@ hr::after {
   left: 50%;
   padding: 0 0.25em;
   background-color: #fff;
-}
-.hgrid .inner-wrap {
-  background-image: url("../img/magic-number-24px.png");
-}
-/**
- * Base style to affect HTML elements on a general scale.
- */
-/**
- * Base style to affect HTML elements on a general scale.
- */
-* {
-  box-sizing: border-box;
-}
-html {
-  overflow-y: scroll;
-  background-color: white;
-  height: 100%;
-}
-body {
-  display: block;
-  margin: 0;
-  padding: 0;
-  color: #333;
-  background-color: white;
-  height: 100%;
-}
-img {
-  max-width: 100%;
 }
 /**
  * Import the vertical grid.

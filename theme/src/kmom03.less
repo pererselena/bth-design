@@ -22,12 +22,6 @@
 @import "@desinax/typographic-grid/less/typography-font-families.less";
 @import "@desinax/typographic-grid/less/typography-defaults.less";
 
-body {
-    #desinax-hgrid.font(@fontSizeBody);
-}
-
-// Activate grid and affect all typographic elements
-#desinax-hgrid.activateDefaultTypography();
 
 // Show the grid
 .hgrid .inner-wrap {
@@ -35,16 +29,6 @@ body {
     #desinax-hgrid.showGrid(@gridImage);
 }
 
-//Adapt typographic grid to my style
-@fontFamilyHeadings: @fontFamilyCalibri;
-@fontFamilyBody: @fontFamilyGaramond;
-@fontFamilyCode: @fontFamilyHelvetica;
-
-
-
-// Magic number and base fontsize
-@magicNumber:  24px;  // 22px
-@fontSizeBody: 18px;
 
 /**
  * Base style to affect HTML elements on a general scale.
@@ -78,6 +62,18 @@ body {
 /**
   * My own settings, not currently in their own module.
   */
+  //Adapt typographic grid to my style
+  @fontFamilyHeadings: @fontFamilyCalibri;
+  @fontFamilyBody: @fontFamilyGaramond;
+  @fontFamilyCode: @fontFamilyHelvetica;
+
+
+
+  // Magic number and base fontsize
+  @magicNumber:  24px;  // 22px
+  @fontSizeBody: 18px;
+
+
 @bgColorHtml: white;
 @bgColorBody: white;
 //@colorMain: lavender;
