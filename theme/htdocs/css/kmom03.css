@@ -645,7 +645,7 @@ body {
   color: #333;
   background-color: white;
   height: 100%;
-  font: 18px/1.33333333 Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", Georgia, "Times New Roman", Times, serif;
+  font: 16px/1.5 Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", Georgia, "Times New Roman", Times, serif;
 }
 img {
   max-width: 100%;
@@ -670,7 +670,7 @@ h6 img {
 }
 h1 {
   font-size: 2.375em;
-  line-height: 1.12280702;
+  line-height: 1.26315789;
   font-weight: normal;
   border-bottom: 1px solid #666;
   margin-bottom: 23px;
@@ -688,7 +688,7 @@ h1 + h2 {
 }
 h2 {
   font-size: 1.875em;
-  line-height: 1.42222222;
+  line-height: 1.6;
   font-weight: normal;
   margin-bottom: 23px;
   border-bottom: 1px solid #CCC;
@@ -698,7 +698,7 @@ h2 + h3 {
 }
 h3 {
   font-size: 1.75em;
-  line-height: 1.52380952;
+  line-height: 1.71428571;
   font-weight: normal;
   margin-bottom: 23px;
   border-bottom: 1px solid #EEE;
@@ -708,7 +708,7 @@ h3 + h4 {
 }
 h4 {
   font-size: 1.5em;
-  line-height: 1.77777778;
+  line-height: 1;
   font-weight: normal;
   margin-bottom: 23px;
   border-bottom: 1px solid #EEE;
@@ -718,7 +718,7 @@ h4 + h5 {
 }
 h5 {
   font-size: 1.25em;
-  line-height: 1.06666667;
+  line-height: 1.2;
   margin-bottom: 23px;
   border-bottom: 1px solid #EEE;
 }
@@ -727,7 +727,7 @@ h5 + h6 {
 }
 h6 {
   font-size: 1.25em;
-  line-height: 1.06666667;
+  line-height: 1.2;
   margin-bottom: 23px;
   border-bottom: 1px solid #EEE;
 }
@@ -877,7 +877,7 @@ article table caption,
 .table caption,
 .table2 caption {
   font-size: 0.875em;
-  line-height: 1.52380952;
+  line-height: 1.71428571;
   text-align: left;
   font-style: italic;
 }
@@ -992,7 +992,6 @@ hr::after {
   margin-left: auto;
   max-width: 1100px;
 }
-.inner-wrap-footer,
 .inner-wrap-header {
   margin-right: auto;
   margin-left: auto;
