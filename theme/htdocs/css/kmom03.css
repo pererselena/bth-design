@@ -1118,6 +1118,25 @@ hr::after {
   text-decoration: none;
 }
 /**
+    * Responsive 1, 2, 3
+    */
+@media screen and (max-width: 850px) {
+  .region-main.has-sidebar-right {
+    display: inline;
+    float: left;
+    width: 98.95833333%;
+    margin-left: 0.52083333%;
+    margin-right: 0.52083333%;
+  }
+  .region-sidebar-right {
+    display: inline;
+    float: left;
+    width: 98.95833333%;
+    margin-left: 0.52083333%;
+    margin-right: 0.52083333%;
+  }
+}
+/**
     * Sidebar layout
     */
 .region-sidebar-left,
