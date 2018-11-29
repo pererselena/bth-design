@@ -323,13 +323,15 @@ template {
 .outer-wrap-header {
   background-color: rgba(106, 99, 113, 0.83);
 }
+img {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
 .region-main {
   background-color: lavender;
 }
 .my-navbar a {
   text-decoration: none;
   color: black;
-  padding: 0.2em;
 }
 .my-navbar a:hover {
   color: black;
@@ -339,15 +341,10 @@ template {
   background-color: rgba(106, 99, 113, 0.83);
 }
 h1 {
-  font-size: 2.5em;
   text-align: center;
-  border-bottom: 1px solid darkgray;
 }
 .right {
   float: right;
-}
-p {
-  font-size: 1.5em;
 }
 .breadcrumb-list a:hover,
 .next-previous a:hover,
@@ -987,6 +984,11 @@ hr::after {
   display: block;
   clear: both;
 }
+.wrap-all {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
 .inner-wrap {
   margin-right: auto;
   margin-left: auto;
@@ -1020,6 +1022,10 @@ hr::after {
 /**
     * Header layout
     */
+.outer-wrap-header {
+  flex-shrink: 0;
+  margin-bottom: 48px;
+}
 .region-header-col-1,
 .region-header-col-3 {
   display: inline;
@@ -1036,12 +1042,15 @@ hr::after {
   margin-right: 0.52083333%;
 }
 .region-header {
-  margin-bottom: 48px;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
 }
 .site-logo {
   display: none;
 }
 .site-logo-text a {
+  display: flex;
   align-items: center;
   font-size: 2em;
   text-transform: uppercase;
@@ -1053,6 +1062,8 @@ hr::after {
     * Navbar layout
     */
 .my-navbar {
+  display: flex;
+  flex-wrap: wrap;
   list-style: none;
   font-size: 1.45em;
 }
@@ -1062,9 +1073,18 @@ hr::after {
 /**
     * Main layout
     */
+.outer-wrap-main {
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+.inner-wrap-main .row {
+  display: flex;
+  flex-direction: row;
+}
 .row::after {
   content: "";
   display: block;
+  clear: both;
 }
 .region-main {
   display: inline;
@@ -1073,6 +1093,8 @@ hr::after {
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
   margin-bottom: 48px;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
 }
 .region-main.has-sidebar-left.has-sidebar-right {
   display: inline;
@@ -1103,11 +1125,13 @@ hr::after {
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
   margin-bottom: 48px;
-  font-size: 0.7em;
 }
-.region-sidebar-left h4,
-.region-sidebar-right h4 {
-  font-size: 1.5em;
+.next-previous {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.previous {
+  margin-right: 1em;
 }
 .region-flash {
   display: inline;
@@ -1141,26 +1165,40 @@ hr::after {
     */
 .toc {
   list-style: none;
-  font-size: 1.2em;
 }
 /**
     * Byline layout
     */
 .author-byline {
   border: 1px solid darkgray;
+  margin-bottom: 0.5em;
+  padding: 1em;
+  clear: both;
 }
-.author-byline p {
-  font-size: 1em;
+.left {
+  float: left;
+  margin: 0 8px 0 0;
 }
 .author-byline::after {
   content: "";
   display: block;
+  clear: both;
 }
 /**
     * Footer layout
     */
+.outer-wrap-footer {
+  flex-shrink: 0;
+}
 .region-footer {
   border-top: 1px solid darkgray;
+}
+.region-footer h4 {
+  border-bottom: none;
+}
+.footer-column-wrapper {
+  display: flex;
+  flex-direction: row;
 }
 .footer-column {
   display: inline;
@@ -1234,10 +1272,6 @@ hr::after {
     margin-right: 0.52083333%;
   }
 }
-/*@columnWidth:   30;
-@gutterWidth:   10;
-@columns:       24;
-@gridType:      "float"; // "flex"*/
 /**
  * Layout style for general structure of header, navbar, main, footer
  * and other regions of the page including route specific styles.
