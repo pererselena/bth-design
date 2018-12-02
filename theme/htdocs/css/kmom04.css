@@ -1022,7 +1022,6 @@ hr::after {
     */
 .outer-wrap-header {
   flex-shrink: 0;
-  margin-bottom: 48px;
 }
 .region-header-col-1,
 .region-header-col-3 {
