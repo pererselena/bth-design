@@ -6,6 +6,8 @@
  * Variables
  */
 @colorMain: white;
+@textColor: black;
+@borderColor: darkgray;
 /**
  * General layout
  */
@@ -52,7 +54,7 @@
     font-size: 2em;
     text-transform: uppercase;
     line-height: 1em;
-    color: black;
+    color: @textColor;
     text-decoration: none;
 }
 /**
@@ -132,7 +134,7 @@
 .breadcrumb-list a,
 .next-previous a,
 .region-sidebar-left a {
-    color: black;
+    color: @textColor;
     text-decoration: none;
     padding: 0.3em;
 }
@@ -163,7 +165,7 @@
   * Byline layout
   */
 .author-byline {
-    border: 1px solid darkgray;
+    border: 1px solid @borderColor;
     margin-bottom: 46px;
     padding: 1em;
     margin-top: 1em;
@@ -192,7 +194,7 @@
 }
 
 .region-footer {
-    border-top: 1px solid darkgray;
+    border-top: 1px solid @borderColor;
 }
 
 .footer-column-wrapper {
