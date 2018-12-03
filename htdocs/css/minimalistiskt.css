@@ -999,6 +999,7 @@ hr::after {
   display: flex;
   flex-direction: column;
   align-items: stretch;
+  min-height: 100%;
 }
 .inner-wrap {
   margin-right: auto;
@@ -1087,11 +1088,11 @@ hr::after {
 .outer-wrap-main {
   /*flex-grow: 1;
     flex-shrink: 0;*/
+  flex: 1 0 auto;
 }
 .inner-wrap-main {
   display: flex;
   flex-direction: row;
-  flex: 1 0 auto;
 }
 .row {
   width: 100%;
@@ -5376,4 +5377,15 @@ hr::after {
   background-size: cover;
   background-color: #fff;
   background-blend-mode: luminosity;
+}
+@media screen and (max-width: 1025px) {
+  .rm-desktop a {
+    padding-right: 0.13em;
+  }
+  .my-navbar {
+    font-size: 1.1em;
+  }
+  .site-logo-text a {
+    font-size: 1.7em;
+  }
 }

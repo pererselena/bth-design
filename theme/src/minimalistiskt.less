@@ -42,7 +42,7 @@
 @columnWidth:   30;
 @gutterWidth:   10;
 @columns:       24;
-@gridType:  "float";// "flex"; // 
+@gridType:  "float";// "flex"; //
 /**
  * Layout style for general structure of header, navbar, main, footer
  * and other regions of the page including route specific styles.
@@ -89,4 +89,18 @@
     background-size: cover;
     background-color: #fff;
     background-blend-mode: luminosity;
+}
+
+@media screen and (max-width: 1025px) {
+    .rm-desktop a {
+        padding-right: 0.13em;
+    }
+
+    .my-navbar {
+        font-size: 1.1em;
+    }
+
+    .site-logo-text a {
+        font-size: 1.7em;
+    }
 }
