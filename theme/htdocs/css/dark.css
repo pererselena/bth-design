@@ -5345,12 +5345,12 @@ hr::after {
   padding-left: 100%;
   background-size: cover;
 }
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 1195px) {
   .rm-desktop a {
     padding-right: 0.13em;
   }
   .my-navbar {
-    font-size: 1.1em;
+    font-size: 0.9em;
   }
   .site-logo-text a {
     font-size: 1.7em;
