@@ -1,7 +1,7 @@
 /*!
- * LESS version of the stylesheet for design minimalistiskt.
+ * LESS version of the stylesheet for minimalistik design.
  *
- * This stylesheet is for the design course and minimalistiskt.
+ * This stylesheet is for the design course and minimalistik theme.
  */
 /**
   * Normalize and reset the style.
@@ -10,7 +10,7 @@
 /**
  * Internal self contained modules, save in directory module/.
  */
-//@import "module/kmom03.less";
+@import "module/kmom03.less";
 /**
  * A responsive menu.
  */
@@ -21,7 +21,7 @@
  */
 @import "@desinax/typographic-grid/less/typography-font-families.less";
 @import "@desinax/typographic-grid/less/typography-defaults.less";
-
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Text+Me+One&subset=devanagari,latin-ext');
 
 // Show the grid
 .hgrid .inner-wrap {
@@ -67,8 +67,8 @@
   @fontSizeBody: 16px;
 
   //Adapt typographic grid to my style
-  @fontFamilyHeadings: @fontFamilyCalibri;
-  @fontFamilyBody: @fontFamilyGaramond;
+  @fontFamilyHeadings: @fontFamilyFjallaOne;
+  @fontFamilyBody: @fontFamilyTextMeOne;
   @fontFamilyCode: @fontFamilyHelvetica;
 
 
@@ -77,7 +77,6 @@
 
 @bgColorHtml: white;
 @bgColorBody: white;
-//@colorMain: lavender;
 
 /**Ersätter flashbild med backgroundsbild*/
 .region-flash img {

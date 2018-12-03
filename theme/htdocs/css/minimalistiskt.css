@@ -314,6 +314,43 @@ template {
 /**
  * Internal self contained modules, save in directory module/.
  */
+/*!
+ * Stylesheet for design kmom01.
+ *
+ * This stylesheet is for the design course and kmom01. Fill it with style
+ * to style up the website so it is useable.
+ */
+.outer-wrap-header,
+.outer-wrap-footer,
+.region-main {
+  background-color: rgba(212, 209, 216, 0.83);
+}
+.region-flash img,
+.region-main img {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.my-navbar a {
+  text-decoration: none;
+  color: black;
+}
+.my-navbar a:hover {
+  color: black;
+  border-radius: 0.5em;
+}
+h1 {
+  text-align: center;
+}
+.right {
+  float: right;
+}
+.breadcrumb-list a:hover,
+.next-previous a:hover,
+.region-sidebar-left a:hover {
+  color: black;
+  background-color: rgba(170, 169, 169, 0.596);
+  border-radius: 0.5em;
+  padding: 0.2em;
+}
 /**
  * A responsive menu.
  */
@@ -548,6 +585,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 /**
  * Typographic font families to choose from.
  */
+/**Customized font*/
 /**
  * Typographic defaults.
  */
@@ -578,6 +616,18 @@ a.rm-button.rm-clicked .rm-button-face-2 {
      * Enable all default typographic elements.
      */
 }
+@font-face {
+  font-family: 'Fjalla One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Fjalla One'), local('FjallaOne-Regular'), url(https://fonts.gstatic.com/s/fjallaone/v5/Yq6R-LCAWCX3-6Ky7FAFrO96lw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Text Me One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Text Me One'), local('TextMeOne-Regular'), url(https://fonts.gstatic.com/s/textmeone/v5/i7dOIFdlayuLUvgoFvHQFVZVYFI.ttf) format('truetype');
+}
 .hgrid .inner-wrap {
   background-image: url("../img/magic-number-24px.png");
 }
@@ -603,7 +653,7 @@ body {
   background-color: white;
   height: 100%;
   width: 99.5%;
-  font: 16px/1.5 Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", Georgia, "Times New Roman", Times, serif;
+  font: 16px/1.5 'Text Me One', sans-serif;
 }
 img {
   max-width: 100%;
@@ -614,7 +664,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Fjalla One', sans-serif;
   margin-top: 24px;
   margin-bottom: 24px;
 }
@@ -1038,8 +1088,9 @@ hr::after {
     * Main layout
     */
 .outer-wrap-main {
-  flex-grow: 1;
-  flex-shrink: 0;
+  /*flex-grow: 1;
+    flex-shrink: 0;*/
+  flex: 1 0 auto;
 }
 .inner-wrap-main .row {
   display: flex;

@@ -548,6 +548,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 /**
  * Typographic font families to choose from.
  */
+/**Customized font*/
 /**
  * Typographic defaults.
  */
@@ -1038,8 +1039,9 @@ hr::after {
     * Main layout
     */
 .outer-wrap-main {
-  flex-grow: 1;
-  flex-shrink: 0;
+  /*flex-grow: 1;
+    flex-shrink: 0;*/
+  flex: 1 0 auto;
 }
 .inner-wrap-main .row {
   display: flex;
