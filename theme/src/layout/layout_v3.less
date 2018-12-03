@@ -87,7 +87,7 @@
 }
 
 .region-flash img {
-    width: 100%;
+    //width: 100%;
 }
 
 
@@ -119,18 +119,19 @@
 .outer-wrap-main {
     /*flex-grow: 1;
     flex-shrink: 0;*/
-    flex: 1 0 auto;
-    height: 70vh;
+
 }
 
 .inner-wrap-main {
-
-    //overflow: auto;
-}
-
-.inner-wrap-main .row {
     display: flex;
     flex-direction: row;
+    //overflow: auto;
+    flex: 1 0 auto;
+}
+
+.row {
+    width: 100%;
+    margin: 0;
 }
 
 .row::after {
