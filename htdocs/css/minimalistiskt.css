@@ -1,7 +1,7 @@
 /*!
- * LESS version of the stylesheet for design kmom04.
+ * LESS version of the stylesheet for design minimalistiskt.
  *
- * This stylesheet is for the design course and kmom04.
+ * This stylesheet is for the design course and minimalistiskt.
  */
 /**
   * Normalize and reset the style.
@@ -5320,3 +5320,15 @@ hr::after {
 /**
   * My own settings, not currently in their own module.
   */
+/**Ersätter flashbild med backgroundsbild*/
+.region-flash img {
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  background: url(../img/theme/berg.png) no-repeat;
+  height: 380px;
+  padding-left: 100%;
+  background-size: cover;
+  background-color: #fff;
+  background-blend-mode: luminosity;
+}

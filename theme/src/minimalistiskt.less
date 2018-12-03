@@ -1,0 +1,93 @@
+/*!
+ * LESS version of the stylesheet for design minimalistiskt.
+ *
+ * This stylesheet is for the design course and minimalistiskt.
+ */
+/**
+  * Normalize and reset the style.
+  */
+@import "normalize.css/normalize.less";
+/**
+ * Internal self contained modules, save in directory module/.
+ */
+//@import "module/kmom03.less";
+/**
+ * A responsive menu.
+ */
+@import "@desinax/responsive-menu/less/responsive-menu.less"; //@import "@desinax/responsive-menu/less/media-queries.less";
+
+/**
+ * Import the typographic grid.
+ */
+@import "@desinax/typographic-grid/less/typography-font-families.less";
+@import "@desinax/typographic-grid/less/typography-defaults.less";
+
+
+// Show the grid
+.hgrid .inner-wrap {
+    @gridImage: "../img/magic-number-@{magicNumber}.png";
+    #desinax-hgrid.showGrid(@gridImage);
+}
+
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@import "base/base_kmom03.less";
+//@import "base/base.less";
+/**
+ * Import the vertical grid.
+ */
+@import "@desinax/vertical-grid/less/grid.less";
+@import "layout/layout_v3.less"; // Default grid, change to fit your requirements.
+@columnWidth:   30;
+@gutterWidth:   10;
+@columns:       24;
+@gridType:      "float"; // "flex"
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+//@import "layout/layout_v2.less";
+@import "layout/responsive.less"; //@import "layout/layout.less";
+//@import "layout/responsive.less";
+@import "layout/regions.less";
+// To add style for ?regions
+/**
+  * Font Awesome.
+  */
+@import "@fortawesome/fontawesome-free/less/fontawesome.less";
+@import "@fortawesome/fontawesome-free/less/solid.less";
+@import "@fortawesome/fontawesome-free/less/brands.less";
+/**
+  * My own settings, not currently in their own module.
+  */
+
+  // Magic number and base fontsize
+  @magicNumber:  24px;  // 22px
+  @fontSizeBody: 16px;
+
+  //Adapt typographic grid to my style
+  @fontFamilyHeadings: @fontFamilyCalibri;
+  @fontFamilyBody: @fontFamilyGaramond;
+  @fontFamilyCode: @fontFamilyHelvetica;
+
+
+
+
+
+@bgColorHtml: white;
+@bgColorBody: white;
+//@colorMain: lavender;
+
+/**Ersätter flashbild med backgroundsbild*/
+.region-flash img {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    background: url(../img/theme/berg.png) no-repeat;
+    height: 380px;
+    padding-left: 100%;
+    background-size: cover;
+    background-color: #fff;
+    background-blend-mode: luminosity;
+}
