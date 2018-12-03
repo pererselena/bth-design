@@ -602,6 +602,7 @@ body {
   color: #333;
   background-color: white;
   height: 100%;
+  width: 99.5%;
   font: 16px/1.5 Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", Georgia, "Times New Roman", Times, serif;
 }
 img {
@@ -1095,14 +1096,6 @@ hr::after {
 }
 .previous {
   margin-right: 1em;
-}
-.region-flash {
-  display: inline;
-  float: left;
-  width: 98.95833333%;
-  margin-left: 0.52083333%;
-  margin-right: 0.52083333%;
-  margin-bottom: 48px;
 }
 .region-breadcrumb {
   display: inline;
