@@ -617,16 +617,22 @@ a.rm-button.rm-clicked .rm-button-face-2 {
      */
 }
 @font-face {
-  font-family: 'Fjalla One';
+  font-family: 'Cinzel';
   font-style: normal;
   font-weight: 400;
-  src: local('Fjalla One'), local('FjallaOne-Regular'), url(https://fonts.gstatic.com/s/fjallaone/v5/Yq6R-LCAWCX3-6Ky7FAFrO96lw.ttf) format('truetype');
+  src: local('Cinzel Regular'), local('Cinzel-Regular'), url(https://fonts.gstatic.com/s/cinzel/v7/8vIJ7ww63mVu7gt79mT-.ttf) format('truetype');
 }
 @font-face {
-  font-family: 'Text Me One';
+  font-family: 'Cinzel';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Cinzel Bold'), local('Cinzel-Bold'), url(https://fonts.gstatic.com/s/cinzel/v7/8vIK7ww63mVu7gtzTUHuE2Zf.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Libre Baskerville';
   font-style: normal;
   font-weight: 400;
-  src: local('Text Me One'), local('TextMeOne-Regular'), url(https://fonts.gstatic.com/s/textmeone/v5/i7dOIFdlayuLUvgoFvHQFVZVYFI.ttf) format('truetype');
+  src: local('Libre Baskerville'), local('LibreBaskerville-Regular'), url(https://fonts.gstatic.com/s/librebaskerville/v5/kmKnZrc3Hgbbcjq75U4uslyuy4kn0qNZaxY.ttf) format('truetype');
 }
 .hgrid .inner-wrap {
   background-image: url("../img/magic-number-24px.png");
@@ -653,7 +659,7 @@ body {
   background-color: white;
   height: 100%;
   width: 100%;
-  font: 16px/1.5 'Text Me One', sans-serif;
+  font: 16px/1.5 'Libre Baskerville', serif;
 }
 img {
   max-width: 100%;
@@ -664,7 +670,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Fjalla One', sans-serif;
+  font-family: 'Cinzel', serif;
   margin-top: 24px;
   margin-bottom: 24px;
 }
