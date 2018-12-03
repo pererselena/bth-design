@@ -1042,6 +1042,7 @@ hr::after {
   /*flex-grow: 1;
     flex-shrink: 0;*/
   flex: 1 0 auto;
+  height: 70vh;
 }
 .inner-wrap-main .row {
   display: flex;

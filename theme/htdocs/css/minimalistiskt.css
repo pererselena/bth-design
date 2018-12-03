@@ -1,7 +1,7 @@
 /*!
- * LESS version of the stylesheet for design minimalistiskt.
+ * LESS version of the stylesheet for minimalistik design.
  *
- * This stylesheet is for the design course and minimalistiskt.
+ * This stylesheet is for the design course and minimalistik theme.
  */
 /**
   * Normalize and reset the style.
@@ -1091,6 +1091,7 @@ hr::after {
   /*flex-grow: 1;
     flex-shrink: 0;*/
   flex: 1 0 auto;
+  height: 70vh;
 }
 .inner-wrap-main .row {
   display: flex;
