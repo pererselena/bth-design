@@ -4,6 +4,7 @@
 @bgColorHtml: #424242;
 @bgColorBody: #fff;
 @colorBody: #333;
+@backgroundImage: none;
 //@fontFamilyBody: serif;
 
 * {
@@ -14,6 +15,7 @@ html {
     overflow-y: scroll;
     background-color: @bgColorHtml;
     height: 100%;
+    background-image: @backgroundImage;
 }
 
 body {
@@ -22,6 +24,7 @@ body {
     padding: 0;
     color: @colorBody;
     background-color: @bgColorBody;
+    background-image: @backgroundImage;
     height: 100%;
     width: 100%;
     #desinax-hgrid.font(@fontSizeBody);
