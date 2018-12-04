@@ -5332,9 +5332,6 @@ hr::after {
   * My own settings, not currently in their own module.
   */
 /**Ersätter flashbild med backgroundsbild*/
-body {
-  background-attachment: fixed;
-}
 .region-flash img {
   width: 100%;
   display: block;
@@ -5352,7 +5349,7 @@ a:hover {
     padding-right: 0.13em;
   }
   .my-navbar {
-    font-size: 0.9em;
+    font-size: 1em;
   }
   .site-logo-text a {
     font-size: 1.7em;
