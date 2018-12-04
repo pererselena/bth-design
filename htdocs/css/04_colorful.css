@@ -608,14 +608,14 @@ html {
   background-color: #424242;
   height: 100%;
   background-image: linear-gradient(to left bottom, #bc9392, #be9aa7, #b9a3ba, #b0adc8, #a7b8cf, #a2bbcf, #9dbdce, #9abfcc, #93bac9, #8cb6c7, #85b1c4, #7eacc2);
+  background-attachment: fixed;
 }
 body {
   display: block;
   margin: 0;
   padding: 0;
   color: #333;
-  background-color: white;
-  background-image: linear-gradient(to left bottom, #bc9392, #be9aa7, #b9a3ba, #b0adc8, #a7b8cf, #a2bbcf, #9dbdce, #9abfcc, #93bac9, #8cb6c7, #85b1c4, #7eacc2);
+  background-color: none;
   height: 100%;
   width: 100%;
   font: 16px/1.5 'Exo', sans-serif;
@@ -5332,6 +5332,9 @@ hr::after {
   * My own settings, not currently in their own module.
   */
 /**Ersätter flashbild med backgroundsbild*/
+body {
+  background-attachment: fixed;
+}
 .region-flash img {
   width: 100%;
   display: block;
