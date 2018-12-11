@@ -548,7 +548,6 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 /**
  * Typographic font families to choose from.
  */
-/**Customized font*/
 /**
  * Typographic defaults.
  */
@@ -588,6 +587,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 /**
  * Base style to affect HTML elements on a general scale.
  */
+/**Customized font*/
 * {
   box-sizing: border-box;
 }

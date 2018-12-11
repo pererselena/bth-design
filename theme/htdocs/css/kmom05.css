@@ -1,7 +1,7 @@
 /*!
- * LESS version of the stylesheet for dark design.
+ * LESS version of the stylesheet for design kmom05.
  *
- * This stylesheet is for the design course and dark theme.
+ * This stylesheet is for the design course and kmom05.
  */
 /**
   * Normalize and reset the style.
@@ -579,22 +579,16 @@ a.rm-button.rm-clicked .rm-button-face-2 {
      */
 }
 @font-face {
-  font-family: 'Cinzel';
+  font-family: 'Fjalla One';
   font-style: normal;
   font-weight: 400;
-  src: local('Cinzel Regular'), local('Cinzel-Regular'), url(https://fonts.gstatic.com/s/cinzel/v7/8vIJ7ww63mVu7gt79mT-.ttf) format('truetype');
+  src: local('Fjalla One'), local('FjallaOne-Regular'), url(https://fonts.gstatic.com/s/fjallaone/v5/Yq6R-LCAWCX3-6Ky7FAFrO96lw.ttf) format('truetype');
 }
 @font-face {
-  font-family: 'Cinzel';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Cinzel Bold'), local('Cinzel-Bold'), url(https://fonts.gstatic.com/s/cinzel/v7/8vIK7ww63mVu7gtzTUHuE2Zf.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Libre Baskerville';
+  font-family: 'Text Me One';
   font-style: normal;
   font-weight: 400;
-  src: local('Libre Baskerville'), local('LibreBaskerville-Regular'), url(https://fonts.gstatic.com/s/librebaskerville/v5/kmKnZrc3Hgbbcjq75U4uslyuy4kn0qNZaxY.ttf) format('truetype');
+  src: local('Text Me One'), local('TextMeOne-Regular'), url(https://fonts.gstatic.com/s/textmeone/v5/i7dOIFdlayuLUvgoFvHQFVZVYFI.ttf) format('truetype');
 }
 .hgrid .inner-wrap {
   background-image: url("../img/magic-number-24px.png");
@@ -611,7 +605,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 }
 html {
   overflow-y: scroll;
-  background-color: #1d1e22;
+  background-color: white;
   height: 100%;
   background-image: none;
   background-attachment: fixed;
@@ -620,11 +614,11 @@ body {
   display: block;
   margin: 0;
   padding: 0;
-  color: #c1b9b5;
-  background-color: #1d1e22;
+  color: #333;
+  background-color: white;
   height: 100%;
   width: 100%;
-  font: 16px/1.5 'Libre Baskerville', serif;
+  font: 16px/1.5 'Text Me One', sans-serif;
 }
 img {
   max-width: 100%;
@@ -635,7 +629,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Cinzel', serif;
+  font-family: 'Fjalla One', sans-serif;
   margin-top: 24px;
   margin-bottom: 24px;
 }
@@ -914,6 +908,134 @@ hr::after {
   background-color: #fff;
 }
 /**
+ * Figure and figcaption for images and other media using figure/figcaption
+ */
+/**
+ * Figure with ASCIINEMA
+ */
+/**
+ * Figure with Codepen
+ */
+/** --------------------------------------------------------------
+ * Figure through .figure
+ */
+figure.figure,
+figure.asciinema,
+figure.codepen,
+figure.figure-codepen {
+  display: table;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 24px;
+  /* Chrome shinks images in td */
+  /* Position the images */
+}
+figure.figure img {
+  max-width: 100%;
+  display: block;
+}
+figure.figure figcaption {
+  display: table-caption;
+  caption-side: bottom;
+  padding-top: 12px;
+}
+figure.figure figcaption p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-style: italic;
+}
+figure.figure td img {
+  max-width: none;
+}
+figure.figure.center {
+  clear: both;
+  margin: auto;
+}
+figure.figure.center figcaption {
+  text-align: center;
+}
+figure.figure.left {
+  float: left;
+  margin-right: 0.5em;
+}
+figure.figure.right {
+  float: right;
+  margin-left: 0.5em;
+}
+@media screen and (max-width: 963px) {
+  figure.figure.left.w67,
+  figure.figure.right.w67 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w67 img,
+  figure.figure.right.w67 img {
+    width: 962.5px;
+  }
+}
+@media screen and (max-width: 733px) {
+  figure.figure.left.w50,
+  figure.figure.right.w50 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w50 img,
+  figure.figure.right.w50 img {
+    width: 733.33333333px;
+  }
+}
+@media screen and (max-width: 688px) {
+  figure.figure.left.w40,
+  figure.figure.right.w40 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w40 img,
+  figure.figure.right.w40 img {
+    width: 687.5px;
+  }
+}
+@media screen and (max-width: 550px) {
+  figure.figure.left.w33,
+  figure.figure.right.w33 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w33 img,
+  figure.figure.right.w33 img {
+    width: 550px;
+  }
+}
+@media screen and (max-width: 367px) {
+  figure.figure.left.w25,
+  figure.figure.right.w25 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w25 img,
+  figure.figure.right.w25 img {
+    width: 366.66666667px;
+  }
+}
+figure.asciinema {
+  display: block;
+}
+figure.asciinema figcaption {
+  display: block;
+}
+figure.asciinema .asciicast {
+  margin: 0 !important;
+}
+figure.codepen,
+figure.figure-codepen {
+  width: 100%;
+}
+/**
  * Import the vertical grid.
  */
 /**
@@ -1044,7 +1166,7 @@ hr::after {
   font-size: 2em;
   text-transform: uppercase;
   line-height: 1em;
-  color: #c1b9b5;
+  color: black;
   text-decoration: none;
 }
 /**
@@ -1143,7 +1265,7 @@ hr::after {
 .breadcrumb-list a,
 .next-previous a,
 .region-sidebar-left a {
-  color: #c1b9b5;
+  color: black;
   text-decoration: none;
 }
 /**
@@ -5348,23 +5470,19 @@ hr::after {
   width: 100%;
   display: block;
   box-sizing: border-box;
-  background: url(../img/theme/dark.jpg) no-repeat;
+  background: url(../img/theme/berg.png) no-repeat;
   height: 380px;
   padding-left: 100%;
   background-size: cover;
+  background-color: #fff;
+  background-blend-mode: luminosity;
 }
-a {
-  color: #c1b9b5;
-}
-a:hover {
-  text-decoration: underline;
-}
-@media screen and (max-width: 1195px) {
+@media screen and (max-width: 1025px) {
   .rm-desktop a {
     padding-right: 0.13em;
   }
   .my-navbar {
-    font-size: 0.9em;
+    font-size: 1em;
   }
   .site-logo-text a {
     font-size: 1.7em;
