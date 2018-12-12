@@ -27,12 +27,12 @@ Sen handlar det om att skriva sina blogg-inlägg...
 
 Rubrik 2 {#anchor-hit}
 -----------------------------------
-[FIGURE src=image/theme/zurich.jpg?aro&w=800&h=200&crop-to-fit caption="En fin bild som representerar design."]
+[FIGURE src=image/theme/zurich.jpg?aro&w=800&h=200&crop-to-fit caption="Zurich."]
 Text.
-[FIGURE src=image/design.jpg?w=300 caption="En fin bild som representerar design."]
+[FIGURE src=image/theme/zurich.jpg?aro&w=400 caption="Zurich."]
 
 
 ### Rubrik 3 {#vad-som}
-[FIGURE src=image/design.jpg?w=300 caption="En fin bild som representerar design."]
+[FIGURE src=image/theme/zurich.jpg?aro&w=400&h=500&crop-to-fit&area=40,40,30,25 caption="Zurich."]
 Text.
-[FIGURE src=image/design.jpg?w=300 caption="En fin bild som representerar design."]
+[FIGURE src=image/theme/zurich.jpg?aro&w=400&&f=smooth,-10 caption="Zurich."]
