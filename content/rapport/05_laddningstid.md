@@ -27,7 +27,7 @@ Här följer de resultat jag hittade per webbplats.
 
 ##Apollo:
 
-[FIGURE src="image/rapport/apollo.jpg" caption="Bild på Apollos webbsida"]
+[FIGURE src="image/rapport/apollo.jpg?w=300&h=400" caption="Bild på Apollos webbsida" class="left"]
 
 Resultat från min mätning ger Apollo ett medelvärde av 2,47 sekunder av sin första sida. Deras rese sida laddas på 2,6 sekunder medans deras sida med erbjudanden laddas på 4,46 sekunder.
 I mobilt läge laddas sidorna istället på 3,77 sekunder för första sidan, Resa på 2,25 sekunder och erbjudande på 2,92 sekunder.
@@ -41,11 +41,13 @@ PageSpeedInsights:
 
 De vanligaste föreslagna ändringarna till Apollo är att läsa in viktiga resurser i förväg, koda bilder effektivt, skjut upp inläsningen av bilder som inte visas på skärmen, ta bort resurser som blockerar renderingen och att använda modernare bildformat samt att använda bilder i rätt storlek.
 
+
+
 ##Tui
 
-En intressant notiering jämfört med alla andra resebolag var att finish tid och storlek samt requests tickar upp ju längre tid man har sidan öppen.
+[FIGURE src="image/rapport/tui.jpg?w=300&h=400" caption="Bild på Tuis webbsida" class="right"]
 
-[FIGURE src="image/rapport/tui.jpg" caption="Bild på Tuis webbsida"]
+En intressant notiering jämfört med alla andra resebolag var att finish tid och storlek samt requests tickar upp ju längre tid man har sidan öppen.
 
 Laddningstiden är lite längre i mobilt läge jämfört i desktop, förutom för erbjudande sidan. Storleken på startsidan är större i mobilt läge, men övriga sidor är större i desktop. Överlag är antalet resurser lägre i mobilt läge förutom för start sidan där det återigen är omvänt..
 
@@ -58,7 +60,7 @@ De vanligaste föreslagna ändringarna till Tui är att ta bort resurser som blo
 
 ##Ving
 
-[FIGURE src="image/rapport/ving.jpg" caption="Bild på Vings webbsida"]
+[FIGURE src="image/rapport/ving.jpg?w=200&h=300" caption="Bild på Vings webbsida" class="left"]
 
 Ving har generellt stor storlek på sina sidor, däremot är mobilt mindre än desktop. Laddningstid är även det lite mindre än för desktop. Resuser är ungefär likadant för både mobilt och desktop.
 
@@ -67,7 +69,11 @@ PageSpeedInsights:
 [Resor](https://www.ving.se/resor) Mobilt: 31 Dator: 97  
 [Erbjudande](https://www.ving.se/erbjudanden) Mobilt: 58 Dator: 100
 
-Den vanligaste föreslagna ändringarna för ving är att använda bilder i modernare bildformat eller i alla fall mindre format och storlek. Dom rekommenderas även att ta bort resurser som blockerar renderingen och att fördröja laddningen av CSS som inte används.
+Den vanligaste föreslagna ändringarna för ving är att använda bilder i modernare bildformat eller i alla fall mindre format och storlek.
+
+Dom rekommenderas även att ta bort resurser som blockerar renderingen och att fördröja laddningen av CSS som inte används.
+
+
 
 Analys
 -----------------------
