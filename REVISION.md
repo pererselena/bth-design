@@ -1,6 +1,11 @@
 Revision history
 ============================
 
+v5.0.0 (2018-12-13)
+------------------------
+* Lagt till kmom05.
+* Skapat rapport för laddningstid.
+* Skapat blogg.
 
 v4.0.0 (2018-12-07)
 ------------------------
