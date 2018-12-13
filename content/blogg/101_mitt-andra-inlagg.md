@@ -1,11 +1,10 @@
 ---
-author: mos
+author: Elena Perers
 category:
-    - utbildning
-    - kursnyheter
-published: "2018-11-03"
+    - Resor
+published: "2018-12-13"
 ---
-Mitt andra inlägg
+Alps
 ==================================
 [FIGURE src=image/theme/alps.jpg?aro caption="Alps."]
 Här är mitt andra blogg inlägg.

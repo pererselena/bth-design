@@ -1,9 +1,8 @@
 ---
-author: mos
+author: Elena Perers
 category:
-    - utbildning
-    - kursnyheter
-published: "2018-10-03"
+    - Resor
+published: "2018-12-13"
 views:
     flash:
         region: flash
@@ -12,7 +11,7 @@ views:
             src: "image/theme/flash.jpg?width=1100&height=150&crop-to-fit&area=0,0,30,0"
 ---
 
-Mitt första inlägg
+Zürich
 ==================================
 [FIGURE src=image/theme/zurich.jpg?aro caption="Zurich."]
 Här är mitt allra första blogg inlägg.

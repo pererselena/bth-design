@@ -1,11 +1,10 @@
 ---
-author: mos
+author: Elena Perers
 category:
-    - utbildning
-    - kursnyheter
-published: "2018-12-03"
+    - Resor
+published: "2018-12-13"
 ---
-Mitt tredje inlägg
+Luzern
 =================================
 
 [FIGURE src=image/theme/luzern.jpg?aro caption="Luzern."]

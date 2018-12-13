@@ -15,7 +15,7 @@ views:
         sort: 2
         data:
             dateFormat: j F Y
-            meta: 
+            meta:
                 type: toc
                 orderby: publishTime
                 orderorder: desc
@@ -25,7 +25,7 @@ views:
         template: anax/v2/blog-toc/default
         sort: 2
         data:
-            meta: 
+            meta:
                 type: copy
                 view: blog-list
 
@@ -33,4 +33,8 @@ views:
 Nytt och Noterat
 ===========================
 
-Kortare blogginlägg om vad som händer på dbwebb.se, kurserna samt webbprogrammering och webbutveckling med HTML, CSS, JavaScript, PHP och SQL i allmänhet.
+Här kommer jag berätta om min underbara resa till Schweiz. Jag, min man och våra vänner bestämde oss att resa till Schweiz under en helg i april 2018. Det var en underbar resa som vi kommer minnas länge. Vi har besökt Zürich, Luzern och Alperna.
+
+Schweiz är landet med många kännetecken. Höga bergstoppar, en enorm finanssektor, varumärken som Rolex och en av världens rikaste befolkning. Belägen i Centraleuropa bjuder landet på härligt klimat, vacker natur och kultur i världsklass.
+
+Schweiz omgärdas av Frankrike i väst, Italien i söder, Österrike i öster och Tyskland i norr. Det är ett av Europa minsta länder och en av få nationer som står utanför Europeiska Unionen.
