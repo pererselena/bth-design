@@ -32,12 +32,12 @@ Här följer de resultat jag hittade per webbplats.
 
 ##Tui
 
-[FIGURE src="image/rapport/satra.png" caption="Bild på Sätra bruks härrgårdens webbsida"]
+[FIGURE src="image/rapport/tui.jpg" caption="Bild på Tuis webbsida"]
 
 ##Ving
 
-[FIGURE src="image/rapport/ulvhalls_herrgard.png" caption="Bild på Ulvhälls Herrgård webbsida"]
-[FIGURE src="image/rapport/ulvhalls_footer.png" caption="Bild på Ulvhälls Herrgård webbsida 'footer'"]
+[FIGURE src="image/rapport/ving.jpg" caption="Bild på Vings webbsida"]
+
 
 Analys
 -----------------------
