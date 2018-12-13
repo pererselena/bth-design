@@ -39,6 +39,8 @@ PageSpeedInsights:
 [Resa](https://www.apollo.se/resa) Mobilt: 61 Dator: 100
 [Erbjudande](https://www.apollo.se/erbjudanden) Mobilt: 60 Dator: 100
 
+De vanligaste föreslagna ändringarna till Apollo är att läsa in viktiga resurser i förväg, koda bilder effektivt, skjut upp inläsningen av bilder som inte visas på skärmen, ta bort resurser som blockerar renderingen och att använda modernare bildformat samt att använda bilder i rätt storlek.
+
 ##Tui
 
 En intressant notiering jämfört med alla andra resebolag var att finish tid och storlek samt requests tickar upp ju längre tid man har sidan öppen.
@@ -52,6 +54,8 @@ PageSpeedInsights:
 [Resa](https://www.tui.se/resa) Mobilt: 45 Dator: 97
 [Erbjudande](https://www.tui.se/erbjudanden) Mobilt: 66 Dator: 100
 
+De vanligaste föreslagna ändringarna till Tui är att ta bort resurser som blockerar renderingen och skjuta upp CSS som inte används och att de ska skjuta upp inläsning av bilder som inte visas på skärmen. Generellt har de bäst laddningstider.
+
 ##Ving
 
 [FIGURE src="image/rapport/ving.jpg" caption="Bild på Vings webbsida"]
@@ -59,13 +63,16 @@ PageSpeedInsights:
 Ving har generellt stor storlek på sina sidor, däremot är mobilt mindre än desktop. Laddningstid är även det lite mindre än för desktop. Resuser är ungefär likadant för både mobilt och desktop.
 
 PageSpeedInsights:
-[Start](https://www.ving.se/) Mobilt: 46 Dator: 96
+[Start](https://www.ving.se/) Mobilt: 35 Dator: 96
 [Resor](https://www.ving.se/resor) Mobilt: 31 Dator: 97
 [Erbjudande](https://www.ving.se/erbjudanden) Mobilt: 58 Dator: 100
 
+Den vanligaste föreslagna ändringarna för ving är att använda bilder i modernare bildformat eller i alla fall mindre format och storlek. Dom rekommenderas även att ta bort resurser som blockerar renderingen och att fördröja laddningen av CSS som inte används.
 
 Analys
 -----------------------
+
+Ving måste förbättra sin mobil version rejält.
 
 Referenser
 -----------------------
