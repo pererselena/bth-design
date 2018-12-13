@@ -7,6 +7,8 @@ published: "2018-12-13"
 Luzern
 =================================
 
+Följande bild är tage i staden Luzern med en mobiltelefonskamera tillhörande en Samsung S7 edge. Motivet är i huvudsak den kända Kapellbron, en trä bro mitt i Luzern. Jag har använt mig av CImage för att göra om och presentera bilden på olika sätt i detta blogginlägg.
+
 [FIGURE src=image/theme/luzern.jpg?aro caption="Luzern."]
 Staden Luzern är kantonens huvudstad. Staden har en mystisk atmosfär - koboltsjön omgiven av berg, den välbevarade gamla stan, strandpromenader och färgglada hus.
 Fjällen Pilatus och Rigis kan ses från Luzern. En av de mest kända sevärdheterna är Kapellbron - en kapellbro byggd på 1400-talet, nu återställd efter en brand.

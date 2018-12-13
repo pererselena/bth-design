@@ -6,6 +6,9 @@ published: "2018-12-13"
 ---
 Rigi
 ==================================
+
+Följande bild är från Rigi-Kulm tagen med en mobiltelefonskamera tillhörande en Samsung S7 edge. Bilden är tagen under mitt besök på Rigi-Kulms en alp topp i närheten av Luzern. Det var en förbluffande magifik utsikt som jag ville fånga. Jag har använt mig av CImage för att göra om och presentera bilden på olika sätt i detta blogginlägg.
+
 [FIGURE src=image/theme/alps.jpg?aro caption="Rigi."]
 “Under några dagar räckte det med att njuta av att titta på den blå Lucernesjön, och på högarna av snötäckta berg som omger den hela vägen… men till slut kom vi fram till att det var dags att få lite utflykteri gjort med hjälp av en ångbåt och att ta itu med Rigi till fots.”
 (Mark Twain: A Tramp Abroad)
