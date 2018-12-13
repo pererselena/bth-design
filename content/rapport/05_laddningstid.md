@@ -21,6 +21,7 @@ Jag har använt developer tools i Chrome för att analysera sidorna. Jag har äv
 
 Resultat
 -----------------------
+Här finns mitt [Excel ark med testdata](https://1drv.ms/x/s!Aojs1_-BoQ6wh_YfnXCbm6dzy9hh-A).
 
 Här följer de resultat jag hittade per webbplats.
 
@@ -28,15 +29,39 @@ Här följer de resultat jag hittade per webbplats.
 
 [FIGURE src="image/rapport/apollo.jpg" caption="Bild på Apollos webbsida"]
 
+Resultat från min mätning ger Apollo ett medelvärde av 2,47 sekunder av sin första sida. Deras rese sida laddas på 2,6 sekunder medans deras sida med erbjudanden laddas på 4,46 sekunder.
+I mobilt läge laddas sidorna istället på 3,77 sekunder för första sidan, Resa på 2,25 sekunder och erbjudande på 2,92 sekunder.
 
+Generellt är storleken på sidorna större i mobilt läge och laddningstiden varierer på de olika sidorna för mobilt eller desktop. Antalet resurser är liknande i båda mobilt och desktop.
+
+PageSpeedInsights:
+[Start](https://www.apollo.se) Mobilt: 39 Dator: 98
+[Resa](https://www.apollo.se/resa) Mobilt: 61 Dator: 100
+[Erbjudande](https://www.apollo.se/erbjudanden) Mobilt: 60 Dator: 100
 
 ##Tui
 
+En intressant notiering jämfört med alla andra resebolag var att finish tid och storlek samt requests tickar upp ju längre tid man har sidan öppen.
+
 [FIGURE src="image/rapport/tui.jpg" caption="Bild på Tuis webbsida"]
+
+Laddningstiden är lite längre i mobilt läge jämfört i desktop, förutom för erbjudande sidan. Storleken på startsidan är större i mobilt läge, men övriga sidor är större i desktop. Överlag är antalet resurser lägre i mobilt läge förutom för start sidan där det återigen är omvänt..
+
+PageSpeedInsights:
+[Start](https://www.tui.se/) Mobilt: 61 Dator: 100
+[Resa](https://www.tui.se/resa) Mobilt: 45 Dator: 97
+[Erbjudande](https://www.tui.se/erbjudanden) Mobilt: 66 Dator: 100
 
 ##Ving
 
 [FIGURE src="image/rapport/ving.jpg" caption="Bild på Vings webbsida"]
+
+Ving har generellt stor storlek på sina sidor, däremot är mobilt mindre än desktop. Laddningstid är även det lite mindre än för desktop. Resuser är ungefär likadant för både mobilt och desktop.
+
+PageSpeedInsights:
+[Start](https://www.ving.se/) Mobilt: 46 Dator: 96
+[Resor](https://www.ving.se/resor) Mobilt: 31 Dator: 97
+[Erbjudande](https://www.ving.se/erbjudanden) Mobilt: 58 Dator: 100
 
 
 Analys
