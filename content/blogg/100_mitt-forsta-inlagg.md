@@ -14,9 +14,7 @@ views:
 Zürich
 ==================================
 [FIGURE src=image/theme/zurich.jpg?aro caption="Zurich."]
-Här är mitt allra första blogg inlägg.
-
-Ett blogg-inlägg innehåller en tagg för `<!--more-->` som bestämmer vilken text som visas på förstasidan.
+Zürich är den största staden i Schweiz med 398 575 invånare. Staden är huvudstad i kantonen med samma namn (1 729 km², 1 274 384 invånare). Staden ligger vid Zürichsjön.
 
 <!--more-->
 
