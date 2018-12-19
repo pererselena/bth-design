@@ -1,0 +1,53 @@
+/*!
+ * Stylesheet for design kmom01.
+ *
+ * This stylesheet is for the design course and kmom01. Fill it with style
+ * to style up the website so it is useable.
+ */
+@textColor: black;
+
+
+
+.region-main img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transform: scale(1);
+    transition: .3s ease-in-out;
+}
+
+.region-main img:hover {
+    transform: scale(1.3);
+}
+
+.my-navbar a {
+    text-decoration: none;
+    color: @textColor;
+    //padding: 0.2em;
+}
+
+.my-navbar a:hover {
+    color: @textColor;
+    border-radius: 0.5em;
+}
+
+h1 {
+    //font-size: 2.5em;
+    text-align: center;
+    //border-bottom: 1px solid darkgray;
+}
+
+.right {
+    float: right;
+}
+
+p {
+    //font-size: 1.5em;
+}
+
+.breadcrumb-list a:hover,
+.next-previous a:hover,
+.region-sidebar-left a:hover {
+    color: @textColor;
+    background-color: rgba(170, 169, 169, 0.596);
+    border-radius: 0.5em;
+    padding: 0.2em;
+}
