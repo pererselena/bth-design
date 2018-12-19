@@ -590,6 +590,12 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   font-weight: 400;
   src: local('Exo Regular'), local('Exo-Regular'), url(https://fonts.gstatic.com/s/exo/v7/4UaOrEtFpBISc36m.ttf) format('truetype');
 }
+@font-face {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Helvetica LT Pro'), local('HelveticaLTPro-Roman'), url(https://fonts.gstatic.com/l/font?kit=JIAxUVNqfH9WuVQQRM4zVxOi&skey=22efecd2bc0e2cb0&v=v2) format('truetype');
+}
 .hgrid .inner-wrap {
   background-image: url("../img/magic-number-24px.png");
 }

@@ -5,28 +5,53 @@
  * to style up the website so it is useable.
  */
 @textColor: black;
-
-
+@colorH1BorderBottom: red;
 
 .region-main img {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transform: scale(1);
-    transition: .3s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 
 .region-main img:hover {
     transform: scale(1.2);
 }
 
-.my-navbar a {
+.rm-desktop li a:hover {
+    text-decoration: none;
+}
+
+.rm-desktop li a {
     text-decoration: none;
     color: @textColor;
     //padding: 0.2em;
-}
+    &:after,
+    &:before {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background: black;
+        content: "";
+        opacity: 0;
+        transition: all 0.7s;
+    }
+    &:before {
+        top: 0;
+        transform: translateY(10px);
+    }
 
-.my-navbar a:hover {
-    color: @textColor;
-    border-radius: 0.5em;
+    &:after {
+        bottom: 0;
+        transform: translateY(-10px);
+    }
+
+    &:hover:before,
+    &:hover:after {
+        text-decoration: none;
+        opacity: 1;
+        transform: translateY(0px);
+    }
 }
 
 h1 {
