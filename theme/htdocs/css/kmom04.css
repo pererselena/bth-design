@@ -594,7 +594,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 html {
   overflow-y: scroll;
   background-color: white;
-  min-height: 100%;
+  height: 100%;
   background-image: none;
   background-attachment: fixed;
 }
@@ -604,7 +604,7 @@ body {
   padding: 0;
   color: #333;
   background-color: white;
-  min-height: 100%;
+  height: 100%;
   width: 100%;
   font: 16px/1.5 Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", Georgia, "Times New Roman", Times, serif;
 }

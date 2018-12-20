@@ -612,7 +612,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 html {
   overflow-y: scroll;
   background-color: #424242;
-  min-height: 100%;
+  height: 100%;
   background-image: linear-gradient(to left bottom, #bc9392, #be9aa7, #b9a3ba, #b0adc8, #a7b8cf, #a2bbcf, #9dbdce, #9abfcc, #93bac9, #8cb6c7, #85b1c4, #7eacc2);
   background-attachment: fixed;
 }
@@ -622,7 +622,7 @@ body {
   padding: 0;
   color: #333;
   background-color: none;
-  min-height: 100%;
+  height: 100%;
   width: 100%;
   font: 16px/1.5 'Exo', sans-serif;
 }
