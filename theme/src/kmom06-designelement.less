@@ -89,17 +89,12 @@ figure.figure-codepen {
 @bgColorHtml: white;
 @bgColorBody: white;
 /**Ersätter flashbild med backgroundsbild*/
-.region-flash img {
+.region-flash {
     width: 100%;
-    display: block;
-    box-sizing: border-box;
-    background: url("../img/theme/berg.png") no-repeat;
     height: 380px;
-    padding-left: 100%;
-    background-size: cover;
-    background-color: #fff;
-    background-blend-mode: luminosity;
-    background-attachment: fixed;
+    & img {
+        display: none;
+    }
 }
 @media screen and (max-width: 1025px) {
     .rm-desktop a {
