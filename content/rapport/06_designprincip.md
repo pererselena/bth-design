@@ -28,7 +28,7 @@ Här följer de resultat jag hittade per webbplats.
 
 [FIGURE src="image/rapport/awave.jpg?w=300&h=400" caption="Bild på Apollos webbsida" class="left"]
 
-Webbplatsens mål och syfte: Målet är att sälja tjänster som designar och utvecklar webbplatser och hemsidor. Den används också som en marknadsföring av vad de kan göra.
+Målet med webbplatsen är att sälja tjänster som designar och utvecklar webbplatser och hemsidor. Den används också som en marknadsföring av vad de kan göra.
 
 När man kommer till sidan känns det som att det är mycket som händer. Det finns en stor flashbild/animation i header. Navbaren är högst upp på sidan som på många andra sidor. Det finns bilder i header som visar olika projekt som de har gjort. Det skapar en känsla av att dom vill visa allt som dom kan om webbutveckling med alla flashiga effekter.
 
@@ -49,16 +49,22 @@ Men de sidor om projekt, kunder och olika produkter & verktyg som de använder s
 
 [FIGURE src="image/rapport/3on.jpg?w=300&h=400" caption="Bild på Tuis webbsida" class="right"]
 
-En intressant notiering jämfört med alla andra resebolag var att finish tid och storlek samt requests tickar upp ju längre tid man har sidan öppen.
+Målet med webbplatsen är att sälja tjänster som designar och utvecklar webbplatser och hemsidor. Den används också som en marknadsföring av vad de kan göra.
 
-Laddningstiden är lite längre i mobilt läge jämfört i desktop, förutom för erbjudande sidan. Storleken på startsidan är större i mobilt läge, men övriga sidor är större i desktop. Överlag är antalet resurser lägre i mobilt läge förutom för start sidan där det återigen är omvänt..
+Webbplatsens design är väldigt modern med en video i header som täcker hela sidan. Navbaren högst upp som är transparent och som stannar kvar när man scrollar. Dom använder parallax effekter på bilder så de scrollar med lite i sidan. Dom använder en "liquid" hoover effekt på en scrolla ner knapp, vilket ger ett flashigt och roligt intryck.
 
-PageSpeedInsights:  
-[Start](https://www.tui.se/) Mobilt: 61 Dator: 100  
-[Resa](https://www.tui.se/resa) Mobilt: 45 Dator: 97  
-[Erbjudande](https://www.tui.se/erbjudanden) Mobilt: 66 Dator: 100
+Designen framhäver att det är en webbyrå som är duktiga på design, dom visar att dom kan göra bra effekter, det är en ren design. Det känns lagom och passande det är inget som tar för mycket plats eller ger ett rörigt intryck. Designen ger en bild av en kompetent webbyrå som kan design.
 
-De vanligaste föreslagna ändringarna till Tui är att ta bort resurser som blockerar renderingen och skjuta upp CSS som inte används och att de ska skjuta upp inläsning av bilder som inte visas på skärmen. Generellt har de bäst laddningstider.
+Man använder sig mycket av betoning, man har till exempel har man i loggan en röd punkt som lyfter fram företagsnamnet direkt. Dom använder en flashvideo som skapar en "wow" känsla direkt. Dom använder sig av en gul färg för att betona vilken sida man är på i navbaren. Det är även några fler element som är betonade med den gula färgen på sidan.
+Man känner mycket rörelse på sidan, med flashvideon när man öppnar sidan och får den i helbild, det skapar väldigt mycket rörelse. Sen har man även "liquid hover" på scrolla ner knappen som skapar rörelsekänslan.
+Parallax scrollningen på bilder skapar även de volym och rörelse.
+
+
+1 Kommentera webbplatsens mål och syfte. Varför finns webbplatsen till?
+2 Kommentera webbplatsens design och vad som kännetecknar den rent allmänt.
+3 Kommentera om du själv anser att designen gynnar webbplatsens mål och syfte, och/eller vilken känsla som designen ger.
+4 Lyft fram den eller de designprinciper du anser kännetecknar webbplatsens design och exemplifiera. Notera gärna vilka designelement som använts.
+5 Kika om designprinciperna som används är lika/olika för framsidan och undersidorna och kommentera.
 
 ##Toxic
 
