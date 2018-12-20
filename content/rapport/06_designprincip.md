@@ -91,7 +91,9 @@ De använder inga flashbilder eller animations effekter som skapar mindre rörel
 Analys
 -----------------------
 
-
+I stort sett uppnår alla tre webbplatser sina mål, deras sidor ser ut som en webbyrå och dom presenterar vad dom kan göra på ett bra sätt. Man kan tydligt se vilka designprinciper de använder på sina webbplatser. Vad som är gemensamt med sidorna är att de använder betoningsprincip för att lyfta fram och sätta accenter på valda delar.
+Alla webbplatserna har tydligt använt sig av rörelse designprincip.
+Den första webbplatsen har lite för mycket som händer. Dom vill visa lite för mycket och det ger istället ett rörigt intryck. Det är viktigt att hitta en balans. Personligen skulle jag säga att den 3on.se är de som har lyckats bäst med att framföra många effekter men lyckats bibehålla en enkel och fin design.
 
 Referenser
 -----------------------
