@@ -583,6 +583,11 @@ body {
 .rm-desktop li a:hover {
   text-decoration: none;
 }
+h1 {
+  background: -webkit-linear-gradient(#41561f, #da9f51);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .rm-desktop li a {
   text-decoration: none;
   color: black;
