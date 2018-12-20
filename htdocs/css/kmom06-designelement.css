@@ -561,6 +561,11 @@ body {
 .rm-desktop ul {
   background-color: rgba(255, 255, 255, 0.7);
 }
+.outer-wrap-header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
 .outer-wrap-footer {
   margin-top: 5em;
   background-color: rgba(255, 255, 255, 0.7);
