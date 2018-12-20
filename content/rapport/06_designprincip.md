@@ -40,6 +40,10 @@ Det finns en enhetlighet I deras färgval där de använder samma färg som i lo
 Nästa princip är balans, de har en symmetri i sidan, om man delar upp sidan i två på mitten finns en symmetri mellan dessa delar.
 Dom använder sig av olika element för att uppnå olika designprinciper som t.ex. "shape" som cirkel, rektangel i logo använder dom en hexagon. Sen använder dom olika typer av linjer, raka och kurvor i footern som ger en känsla av volym.
 
+Tittar man på de olika undersidorna så är det liknande designprinciper som används. Men det händer inte lika mycket på dom, de är lite lugnare. Det finns fortfarande betoning på flashbilden men inte så mycket hover effekter som används.
+Dom använder på olika undersidor olika "shapes" som t.ex på projektsidan används rektagnlar för att visa projekt som dom har gjort. På kund sidan används cirklar istället.
+
+Men de sidor om projekt, kunder och olika produkter & verktyg som de använder sig av skiljer sig mer då dessa visar desingen från dessa och inte Awave.
 
 ##30n
 
