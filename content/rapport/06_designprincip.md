@@ -59,28 +59,33 @@ Man använder sig mycket av betoning, man har till exempel har man i loggan en r
 Man känner mycket rörelse på sidan, med flashvideon när man öppnar sidan och får den i helbild, det skapar väldigt mycket rörelse. Sen har man även "liquid hover" på scrolla ner knappen som skapar rörelsekänslan.
 Parallax scrollningen på bilder skapar även de volym och rörelse.
 
+Man använder sig av balans på webbplatsen, om man delar sidan i mitten så finns det en symmetri.
 
-1 Kommentera webbplatsens mål och syfte. Varför finns webbplatsen till?
-2 Kommentera webbplatsens design och vad som kännetecknar den rent allmänt.
-3 Kommentera om du själv anser att designen gynnar webbplatsens mål och syfte, och/eller vilken känsla som designen ger.
-4 Lyft fram den eller de designprinciper du anser kännetecknar webbplatsens design och exemplifiera. Notera gärna vilka designelement som använts.
-5 Kika om designprinciperna som används är lika/olika för framsidan och undersidorna och kommentera.
+På delar av sidan använder man sig av ett triad färgschema.
+
+Dom använder olika designelement som t.ex. "shape", linjer, dom har mycket whitepsace som ger ett luftigt intryck.
+
+Dom använder ungefär samma principer men på lite annat sätt i sina undersidor. Dom använder inte video i header. Däremot får dom in mycket rörelser genom att ha många animerade element. Dom använder sig även av en kurviglinje på flashbilden för att få en känsla av rörelse.
+
 
 ##Toxic
 
 [FIGURE src="image/rapport/toxic.png?w=200&h=300" caption="Bild på Vings webbsida" class="left"]
 
-Ving har generellt stor storlek på sina sidor, däremot är mobilt mindre än desktop. Laddningstid är även det lite mindre än för desktop. Resuser är ungefär likadant för både mobilt och desktop.
+Målet med webbplatsen är att sälja tjänster som designar och utvecklar webbplatser och hemsidor. Den används också som en marknadsföring av vad de kan göra.
 
-PageSpeedInsights:  
-[Start](https://www.ving.se/) Mobilt: 35 Dator: 96  
-[Resor](https://www.ving.se/resor) Mobilt: 31 Dator: 97  
-[Erbjudande](https://www.ving.se/erbjudanden) Mobilt: 58 Dator: 100
+Webbplatsens design känns fräsch, med navbaren som alltid håller sig längst upp. En flashbild som är lite större som tar upp nästan hela viewporten. Flashbilden är animerad och visar upp några medarbetare. Man använder sig av en hoover animering på knappar för affärsområden. Flashbilden har en parallax scroll effekt.
 
-Den vanligaste föreslagna ändringarna för ving är att använda bilder i modernare bildformat eller i alla fall mindre format och storlek.
+Deras design ger ett bra intryck, det är en enkel design som ser fräsch och inte är för mycket. Den har några roliga effekter här och där. Vilket får en att förstå att de kan webbutveckling.
 
-Dom rekommenderas även att ta bort resurser som blockerar renderingen och att fördröja laddningen av CSS som inte används.
+I deras logo använder dom ett snitt igenom den som skapar en känsla av rörelse. Den animerade flashbilden skapar även den rörelse. De animerade knapparna skapar även de en känsla av rörelse.
+En annan designprincip som anväds flitigt är betoning, man har en grönfärg på knappar i navbar som man direkt ser. De använder även samma gröna färg på länkar i footer och på hover effekten på knapparna med animering.
+Det finns en designprincip balans som används, om man delar sidan på mitten så har den en symmetri.
+Designprincipen hierarki används i header, man kan tydligt se detta genom att de använder olika storlek på typsnitt från större till mindre.
+De använder sig av olika design element på sidan t.ex. linjer på hover effekt på navbaren. "Shape" som t.ex. cirklar på de animerade knapparna.
 
+Dom följer sina principer på undersidorna. Med undantaget för referesner där de visar de kundsidor som de gjort.
+De använder inga flashbilder eller animations effekter som skapar mindre rörelse känsla. Men i övrigt är det likadant.
 
 
 Analys
