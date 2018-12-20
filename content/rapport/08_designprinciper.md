@@ -3,6 +3,24 @@
 Designprinciper
 =========================
 
+Kommentarer på temat kmom06-Designprinciper
+
+Designprinciper jag valt
+-----------------------
+
+Jag har valt att arbeta med priniperna unity, rörelse samt betoning.
+
+###Unity
+
+Jag har valt att arbeta med aktomatisktfärgschema det skapar en känsla av enhetlighet. Jag har anvönt CSS effekt för bilden så den blir akromatisk och ger en känsla av enhetlighet. Jag har valt olika typsnitt för brödtext och rubriker, men de passar ihop och man kan se enhetlighet.
+
+###Rörelse
+
+I flashbilden har jag använt parallax effekt vid scrollning för att skapa en känsla av rörelse. Även valet av motiv på berg och deras kontur och kurviga linjer ger en känsla av rörelse. Även hover animationerna på länkar är skapade för att försöka ge en känsla av rörelse.
+
+###Betoning
+
+För att betona rubriker har jag valt att använda en annan färg, samma färg som används i logo för sidan. Jag använder också hover effekter för att betona de menyval man rör sig över.
 
 
 Referenser
