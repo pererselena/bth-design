@@ -1,6 +1,14 @@
 Revision history
 ============================
 
+v6.0.0 (2018-12-20)
+------------------------
+* Lagt till kmom06.
+* Skapat rapport Designprinciper.
+* Skapat rapport och tema för designelement.
+* Skapat rapport och tema för designprinciper.
+
+
 v5.0.0 (2018-12-13)
 ------------------------
 * Lagt till kmom05.
