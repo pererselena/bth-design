@@ -99,7 +99,7 @@ Referenser
 -----------------------
 
 [Design Elements & Principles](https://www.canva.com/learn/design-elements-principles/)  
-[Moz Page Speed](https://moz.com/learn/seo/page-speed)
+[Design – principer och element](https://www.youtube.com/watch?v=uVrh3frrC38&list=PLKtP9l5q3ce-oz7aoBkk-oEn4xzGbtqxU&index=3)
 
 Kurslitteratur:
 
