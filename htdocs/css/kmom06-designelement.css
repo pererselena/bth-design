@@ -552,21 +552,20 @@ body {
   width: 100%;
   display: block;
   box-sizing: border-box;
-  background: url("../img/theme/space.jpg") no-repeat;
+  background: url("../img/theme/forest.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
 }
 .outer-wrap-header,
 .rm-desktop ul {
-  background-color: rgba(255, 255, 255, 0.57);
+  background-color: rgba(255, 255, 255, 0.7);
 }
 .outer-wrap-footer {
   margin-top: 5em;
-  background-color: rgba(255, 255, 255, 0.57);
+  background-color: rgba(255, 255, 255, 0.7);
 }
 .region-footer {
-  margin-top: 3em;
   border-top: none;
 }
 .outer-wrap-main,
