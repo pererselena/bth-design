@@ -28,18 +28,17 @@ Här följer de resultat jag hittade per webbplats.
 
 [FIGURE src="image/rapport/awave.jpg?w=300&h=400" caption="Bild på Apollos webbsida" class="left"]
 
-Resultat från min mätning ger Apollo ett medelvärde av 2,47 sekunder av sin första sida. Deras rese sida laddas på 2,6 sekunder medans deras sida med erbjudanden laddas på 4,46 sekunder.
-I mobilt läge laddas sidorna istället på 3,77 sekunder för första sidan, Resa på 2,25 sekunder och erbjudande på 2,92 sekunder.
+Webbplatsens mål och syfte: Målet är att sälja tjänster som designar och utvecklar webbplatser och hemsidor. Den används också som en marknadsföring av vad de kan göra.
 
-Generellt är storleken på sidorna större i mobilt läge och laddningstiden varierer på de olika sidorna för mobilt eller desktop. Antalet resurser är liknande i båda mobilt och desktop.
+När man kommer till sidan känns det som att det är mycket som händer. Det finns en stor flashbild/animation i header. Navbaren är högst upp på sidan som på många andra sidor. Det finns bilder i header som visar olika projekt som de har gjort. Det skapar en känsla av att dom vill visa allt som dom kan om webbutveckling med alla flashiga effekter.
 
-PageSpeedInsights:  
-[Start](https://www.apollo.se) Mobilt: 39 Dator: 98  
-[Resa](https://www.apollo.se/resa) Mobilt: 61 Dator: 100  
-[Erbjudande](https://www.apollo.se/erbjudanden) Mobilt: 60 Dator: 100
+Webbplatsens lyckas med att visa att dom kan mycket. Däremot skulle jag säga att dom vill visa lite för mycket. Man blir lite överöst med alla olika effekter, de skulle nog vinna på att ha första sidan lite enklare. Den oranga färgen i animation/flashbild gör att det händer lite för mycket på sidan. Man skulle ha kunnat välja en lugnare färg. Men den sticker ut och påkallar uppmärksamhet.
 
-De vanligaste föreslagna ändringarna till Apollo är att läsa in viktiga resurser i förväg, koda bilder effektivt, skjut upp inläsningen av bilder som inte visas på skärmen, ta bort resurser som blockerar renderingen och att använda modernare bildformat samt att använda bilder i rätt storlek.
-
+Betoning är en designprincip som används, t.ex. med en orange flashbilden/animeringen. Den sätts mycket i fokus, man använder samma färg som i sin logo för denna. Hover effekten på en del knappar anväds också för att betona dessa med en orange färg.
+Dom använder sig av rörelser genom den animerade flashbilden. Det finns även animation och rörelse på en del knappar och bilder som har länkar.
+Det finns en enhetlighet I deras färgval där de använder samma färg som i logo för att belysa olika delar av sidan.
+Nästa princip är balans, de har en symmetri i sidan, om man delar upp sidan i två på mitten finns en symmetri mellan dessa delar.
+Dom använder sig av olika element för att uppnå olika designprinciper som t.ex. "shape" som cirkel, rektangel i logo använder dom en hexagon. Sen använder dom olika typer av linjer, raka och kurvor i footern som ger en känsla av volym.
 
 
 ##30n
