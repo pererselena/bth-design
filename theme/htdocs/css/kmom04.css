@@ -5325,3 +5325,6 @@ hr::after {
 /**
   * My own settings, not currently in their own module.
   */
+.region-flash {
+  text-align: center;
+}
