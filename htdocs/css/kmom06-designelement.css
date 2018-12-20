@@ -558,12 +558,12 @@ body {
   background-position: center;
 }
 .outer-wrap-header,
-.footer-column,
-.site-footer {
+.rm-desktop ul {
   background-color: rgba(255, 255, 255, 0.57);
 }
-.site-footer {
-  margin-top: 0.8em;
+.outer-wrap-footer {
+  margin-top: 5em;
+  background-color: rgba(255, 255, 255, 0.57);
 }
 .region-footer {
   margin-top: 3em;
