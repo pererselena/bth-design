@@ -611,6 +611,10 @@ body {
 img {
   max-width: 100%;
 }
+.inner-wrap .row {
+  margin: 0;
+  max-width: 100%;
+}
 h1,
 h2,
 h3,

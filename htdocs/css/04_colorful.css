@@ -594,7 +594,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   font-family: 'Helvetica';
   font-style: normal;
   font-weight: 400;
-  src: local('Helvetica LT Pro'), local('HelveticaLTPro-Roman'), url(https://fonts.gstatic.com/l/font?kit=JIAxUVNqfH9WuVQQRM4zVxOi&skey=22efecd2bc0e2cb0&v=v2) format('truetype');
+  src: local('Helvetica LT Pro'), local('HelveticaLTPro-Roman'), url(https://fonts.gstatic.com/l/font?kit=JIAxUVNqfH9WuVQQRM4zVxOi&skey=22efecd2bc0e2cb0&v=v3) format('truetype');
 }
 .hgrid .inner-wrap {
   background-image: url("../img/magic-number-24px.png");
@@ -627,6 +627,10 @@ body {
   font: 16px/1.5 'Exo', sans-serif;
 }
 img {
+  max-width: 100%;
+}
+.inner-wrap .row {
+  margin: 0;
   max-width: 100%;
 }
 h1,
